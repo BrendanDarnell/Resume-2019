@@ -9,9 +9,13 @@ html, body {
 	border: 1px solid grey;
 }
 
+body {
+	display: flex;
+}
+
 header {
 	height: 100%;
-	width: 30%;
+	flex: 0 0 30%;
 	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
@@ -64,4 +68,9 @@ header a {
 
 .skills-div > ul {
 	margin: 0;
+}
+
+main {
+	flex: 0 0 70%;
+	padding: 1%;
 }
