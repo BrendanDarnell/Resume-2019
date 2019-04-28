@@ -51,6 +51,10 @@ header a {
 	margin-top: 0;
 }
 
+/*.summary {
+	text-align: center;
+}*/
+
 .skills {
 	display: flex;
 	justify-content: space-around;
@@ -73,4 +77,12 @@ header a {
 main {
 	flex: 0 0 70%;
 	padding: 1%;
+}
+
+main h3 {
+	border-bottom: 2px solid grey
+}
+
+.job-location {
+	float: right;
 }
