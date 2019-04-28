@@ -15,7 +15,7 @@ body {
 
 header {
 	height: 100%;
-	flex: 0 0 30%;
+	flex: 0 0 27%;
 	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
@@ -25,11 +25,11 @@ header {
 }
 
 h1 {
-	font-size: 1.8em;
+	font-size: 1.7em;
 }
 
 .developer {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	margin-top: 0;
 }
 
@@ -75,7 +75,7 @@ header a {
 }
 
 main {
-	flex: 0 0 70%;
+	flex: 0 0 73%;
 	padding: 1%;
 }
 
@@ -86,3 +86,19 @@ main h3 {
 .job-location {
 	float: right;
 }
+
+.app h4, .app p, .job h4, .job h5, .job-duties {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.app p {
+	font-size: .90em;
+}
+
+.job-duties {
+	padding-left: 3%;
+	list-style-type: circle;
+	font-size: .93em;
+}
+
