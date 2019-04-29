@@ -1,3 +1,7 @@
+/* blue color #0066ff*/
+/*grey color #666666*/
+
+
 * {
 	box-sizing: border-box;
 }
@@ -22,10 +26,13 @@ header {
 	justify-content: flex-start;
 	align-items: center;
 	padding: 1%;
+	background-color: #333333;
+	color: white;
 }
 
 h1 {
 	font-size: 1.7em;
+	color: #1a75ff; 
 }
 
 .developer {
@@ -44,11 +51,18 @@ header ul {
 
 header a {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 .my-sites {
 	margin-top: 0;
+}
+
+header h3 {
+	border-bottom: 1px solid white;
+	width: 90%;
+	text-align: center;
+
 }
 
 /*.summary {
@@ -83,11 +97,11 @@ main h3 {
 	border-bottom: 2px solid grey
 }
 
-.job-location {
+.job-location, .grad-date {
 	float: right;
 }
 
-.app h4, .app p, .job h4, .job h5, .job-duties {
+.app h4, .app p, .job h4, .job h5, .job-duties, .education h4, .education h5, .ed-list {
 	margin-top: 1vh;
 	margin-bottom: 1vh;
 }
@@ -96,9 +110,21 @@ main h3 {
 	font-size: .90em;
 }
 
-.job-duties {
+.job-duties, .ed-list {
 	padding-left: 3%;
 	list-style-type: circle;
 	font-size: .93em;
+}
+
+main h4 {
+	color: #1a75ff;
+}
+
+.publication {
+	font-size: .9em;
+}
+
+.italics {
+	font-style: italic;
 }
 
